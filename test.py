@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-image = cv2.imread("./img/azul_cortada.jpg")
+image = cv2.imread("./img/rayas_exten_3.jpg")
 original = cv2.resize(image, (740, 411))
 #b,g,r = cv2.split(original)
 cv2.imshow("original", original)

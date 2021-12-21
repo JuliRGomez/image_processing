@@ -12,7 +12,7 @@ def uniendo4puntos(puntos):
     cv2.line(imagen,tuple(puntos[1]),tuple(puntos[3]),(255,0,0),1)
     
 puntos = []
-image = cv2.imread("./img/rayas_exten_3.jpg")
+image = cv2.imread("./img/prueba_tela_b4.png")
 imagen = cv2.resize(image, (740, 411))
 aux = imagen.copy()
 cv2.namedWindow('Imagen')
