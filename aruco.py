@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 
-original = cv2.imread("./img/arucos.png")
+original = cv2.imread("./img/aruco_tela.png")
 image = cv2.resize(original, (740, 411))
 
 
